@@ -13,5 +13,6 @@ services:
         fromDatabase:
           name: kbm
           property: connectionString
+          plan: free
       - key: RAILS_MASTER_KEY
         sync: false
