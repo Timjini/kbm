@@ -1,2 +1,38 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #131316;
+    color: red;
+    font-family: 'OpenSans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+.coming-soon h1 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.coming-soon a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 2rem;
+}
+
+.coming-soon a:hover {
+    color: blueviolet;
+    text-decoration: none;
+    transform: scale(1.5);
+}
+
