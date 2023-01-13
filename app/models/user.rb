@@ -4,7 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   has_one_attached :avatar
-  enum role: { user: 0, admin: 1}
+  enum role: { admin: 0, user: 1}
 
 
 end
